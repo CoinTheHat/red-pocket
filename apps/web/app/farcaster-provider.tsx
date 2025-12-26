@@ -6,7 +6,7 @@ import sdk, { type Context } from "@farcaster/miniapp-sdk";
 
 export function FarcasterProvider({ children }: { children: React.ReactNode }) {
     const [isSDKLoaded, setIsSDKLoaded] = useState(false);
-    const [context, setContext] = useState<Context.FrameContext>();
+    const [context, setContext] = useState();
 
     useEffect(() => {
         const load = async () => {
