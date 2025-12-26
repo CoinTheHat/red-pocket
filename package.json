@@ -1,0 +1,17 @@
+{
+  "name": "red-pocket-monorepo",
+  "version": "0.0.1",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspaces",
+    "build": "npm run build --workspaces"
+  },
+  "devDependencies": {
+    "prettier": "^3.1.0",
+    "turbo": "^1.10.0"
+  }
+}
