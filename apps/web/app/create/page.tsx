@@ -244,7 +244,6 @@ export default function CreatePage() {
                                         key={t.symbol}
                                         active={token.symbol === t.symbol}
                                         onClick={() => setToken(t)}
-                                        icon={t.symbol === 'ETH' ? <Wallet className="w-3 h-3" /> : undefined}
                                     >
                                         {t.symbol}
                                     </Chip>
