@@ -1,0 +1,13 @@
+{
+    "name": "Red Pocket",
+    "version": "1.0.0",
+    "iconUrl": "https://raw.githubusercontent.com/vgrichina/red-pocket/main/public/icon.png",
+    "splashImageUrl": "https://raw.githubusercontent.com/vgrichina/red-pocket/main/public/splash.png",
+    "splashBackgroundColor": "#0B0F14",
+    "homeUrl": "https://redpocket.app",
+    "description": "Send crypto gifts on Base - instant, secure, and onchain",
+    "author": {
+        "name": "Red Pocket Team",
+        "url": "https://redpocket.app"
+    }
+}

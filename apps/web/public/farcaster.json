@@ -1,0 +1,9 @@
+{
+    "name": "Red Pocket",
+    "iconUrl": "https://raw.githubusercontent.com/vgrichina/red-pocket/main/public/icon.png",
+    "homeUrl": "https://redpocket.base.org",
+    "webhookUrl": "https://redpocket.base.org/api/webhook",
+    "action": {
+        "type": "post"
+    }
+}
