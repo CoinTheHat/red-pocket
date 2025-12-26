@@ -211,7 +211,7 @@ export default function ClaimPage() {
                             <div className="text-sm text-muted-foreground uppercase tracking-widest font-semibold mb-2">Contains</div>
                             {packet ? (
                                 <div className="text-4xl font-black tracking-tighter">
-                                    {packet[6] ? '???' : formatUnits(packet[2] ? packet[2] / packet[4] : BigInt(0), tokenInfo?.decimals || 18)} {tokenSymbol}
+                                    {packet[6] ? '???' : formatUnits(packet[2] ? BigInt(packet[2]) / BigInt(packet[4]) : BigInt(0), tokenInfo?.decimals || 18)} {tokenSymbol}
                                 </div>
                             ) : (
                                 <div className="animate-pulse h-10 w-32 bg-secondary rounded mx-auto" />
